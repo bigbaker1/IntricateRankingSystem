@@ -1,0 +1,30 @@
+entity Contestant{
+	name String,
+    class String,
+    matchMakingRating Integer,
+    eloPoints Integer,
+}
+
+entity Match {
+
+	 playerOneScore Integer,
+     playerTwoScore Integer,
+}
+
+relationship ManyToOne {
+	Match{playerOne} to Contestant
+    Match{playerTwo} to Contestant
+}
+
+// Set pagination options
+paginate Match  with infinite-scroll
+paginate Contestant with pagination
+
+// Use Data Transfert Objects (DTO)
+// dto * with mapstruct
+
+// Set service options to all except few
+service all with serviceImpl
+
+// Set an angular suffix
+// angularSuffix * with mySuffix
