@@ -1,0 +1,42 @@
+{
+  "generator-jhipster": {
+    "applicationType": "gateway",
+    "gitCompany": "",
+    "baseName": "IntricateRankingSystem",
+    "packageName": "baker.intricate",
+    "packageFolder": "baker/intricate",
+    "serverPort": 8080,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mssql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.0.0",
+    "jwtSecretKey": "NjMxODA1OGM1MDFjZjllODFhYWJlN2YyOTc5MTY2ZjAxNDZiYmM2NGE2NDM4OTk5YTU1NWE4YjJlMjFjMjE0ZTk3MjdmNDZiMjU2NTI3ODNhMTQ5NmM0YTk1ZjkyY2Y4NjBlZDVhMGVlMmIyMmI1ODNlMWJjZjZlNjM0ODVkNDk=",
+    "clientTheme": "none",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "bigbaker1",
+  "repository-name": "IntricateRankingSystem"
+}
